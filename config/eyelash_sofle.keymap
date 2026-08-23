@@ -103,12 +103,12 @@
         };
 
         layer_3 {
-            display-name = "L3";
+            display-name = "Codex";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LBKT  &kp RBKT  &kp LBRC       &kp RBRC          &kp LPAR  &kp RPAR
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp BSLH  &kp PIPE  &kp COLON      &kp QUESTION      &kp EQUAL &kp PLUS
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp MINUS &kp UNDER &kp LESS_THAN  &kp GREATER_THAN &kp TILDE &kp CARET
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp ASTRK &kp AMPS  &trans         &trans            &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(N) &kp LG(ENTER) &kp ESC &kp LA(Z) &kp LG(SLASH) &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans        &trans   &trans      &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans        &trans   &trans      &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans        &trans   &trans      &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
             sensor-bindings = <&scroll_encoder>;
