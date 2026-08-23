@@ -105,9 +105,9 @@
         layer_3 {
             display-name = "Codex";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(N) &kp LG(ENTER) &trans  &kp LA(SPACE) &kp LG(SLASH) &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans        &trans   &trans      &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans        &trans   &trans      &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(N)           &kp LG(ENTER)     &kp LG(K)       &kp LA(SPACE)  &kp LC(LS(M)) &kp LA(LG(N))
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(T)           &kp LC(LS(G))     &kp LC(GRAVE)   &kp LG(J)      &kp LG(B)      &kp LA(LG(B))
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LA(LG(LEFT))  &kp LA(LG(RIGHT)) &kp LA(LG(A)) &kp LC(LS(V)) &kp LG(P)      &kp LG(F)
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans        &trans   &trans      &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
