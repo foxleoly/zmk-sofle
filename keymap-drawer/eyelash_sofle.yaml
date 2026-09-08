@@ -203,12 +203,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Gui+N
-  - {t: 'Gui+$$mdi:keyboard-return$$', type: enter}
-  - Gui+K
-  - Alt+$$mdi:keyboard-space$$
-  - Ctl+Sft+M
   - Alt+Gui+N
+  - Gui+K
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -216,25 +215,26 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+T
-  - Ctl+Sft+G
-  - {t: Ctl+`, s: Ctl+~}
-  - Gui+J
-  - Gui+B
-  - Alt+Gui+B
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+Gui+$$mdi:arrow-left-bold$$
-  - Alt+Gui+$$mdi:arrow-right-bold$$
-  - Alt+Gui+A
-  - Ctl+Sft+V
   - Gui+P
-  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: Ctl+`, s: Ctl+~}
+  - Gui+T
+  - Gui+J
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+B
+  - Ctl+Sft+M
+  - Ctl+Sft+D
+  - Gui+W
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
