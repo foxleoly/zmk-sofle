@@ -215,7 +215,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&om_wspr'
+  - '&om_wspv'
   - '&om_file'
   - '&om_full'
   - '&om_tmux'
