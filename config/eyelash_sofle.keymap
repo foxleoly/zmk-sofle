@@ -73,7 +73,7 @@
     };
 
     macros {
-        SHIFT_MCLK: SHIFT_MCLK {
+        shift_mclk: SHIFT_MCLK {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -88,7 +88,7 @@
             label = "SHIFT_MCLK";
         };
 
-        SCR_REC: SCR_REC {
+        scr_rec: SCR_REC {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -100,157 +100,157 @@
             label = "SCR_REC";
         };
 
-        OM_WS1: OM_WS1 {
+        om_ws1: OM_WS1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp N1>;
             label = "OM_WS1";
         };
-        OM_WS2: OM_WS2 {
+        om_ws2: OM_WS2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp N2>;
             label = "OM_WS2";
         };
-        OM_WS3: OM_WS3 {
+        om_ws3: OM_WS3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp N3>;
             label = "OM_WS3";
         };
-        OM_WS4: OM_WS4 {
+        om_ws4: OM_WS4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp N4>;
             label = "OM_WS4";
         };
-        OM_WS5: OM_WS5 {
+        om_ws5: OM_WS5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp N5>;
             label = "OM_WS5";
         };
-        OM_WS6: OM_WS6 {
+        om_ws6: OM_WS6 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp N6>;
             label = "OM_WS6";
         };
-        OM_WS7: OM_WS7 {
+        om_ws7: OM_WS7 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp N7>;
             label = "OM_WS7";
         };
-        OM_WS8: OM_WS8 {
+        om_ws8: OM_WS8 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp N8>;
             label = "OM_WS8";
         };
-        OM_WS9: OM_WS9 {
+        om_ws9: OM_WS9 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp N9>;
             label = "OM_WS9";
         };
-        OM_WS0: OM_WS0 {
+        om_ws0: OM_WS0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp N0>;
             label = "OM_WS0";
         };
-        OM_TERM: OM_TERM {
+        om_term: OM_TERM {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp RETURN>;
             label = "OM_TERM";
         };
-        OM_MENU: OM_MENU {
+        om_menu: OM_MENU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp SPACE>;
             label = "OM_MENU";
         };
-        OM_APPS: OM_APPS {
+        om_apps: OM_APPS {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp LEFT_ALT &kp SPACE>;
             label = "OM_APPS";
         };
-        OM_LOCK: OM_LOCK {
+        om_lock: OM_LOCK {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp LCTRL &kp L>;
             label = "OM_LOCK";
         };
-        OM_BRW: OM_BRW {
+        om_brw: OM_BRW {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp LSHFT &kp RETURN>;
             label = "OM_BRW";
         };
-        OM_FILE: OM_FILE {
+        om_file: OM_FILE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp LSHFT &kp F>;
             label = "OM_FILE";
         };
-        OM_FULL: OM_FULL {
+        om_full: OM_FULL {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp F>;
             label = "OM_FULL";
         };
-        OM_TMUX: OM_TMUX {
+        om_tmux: OM_TMUX {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp LEFT_ALT &kp RETURN>;
             label = "OM_TMUX";
         };
-        OM_CLIP: OM_CLIP {
+        om_clip: OM_CLIP {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp LCTRL &kp V>;
             label = "OM_CLIP";
         };
-        OM_EMOJ: OM_EMOJ {
+        om_emoj: OM_EMOJ {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp LCTRL &kp E>;
             label = "OM_EMOJ";
         };
-        OM_NITE: OM_NITE {
+        om_nite: OM_NITE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp LCTRL &kp N>;
             label = "OM_NITE";
         };
-        OM_CALC: OM_CALC {
+        om_calc: OM_CALC {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp LCTRL &kp Q>;
             label = "OM_CALC";
         };
-        OM_WSNX: OM_WSNX {
+        om_wsnx: OM_WSNX {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp TAB>;
             label = "OM_WSNX";
         };
-        OM_WSPV: OM_WSPV {
+        om_wspv: OM_WSPV {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp LSHFT &kp TAB>;
             label = "OM_WSPV";
         };
-        OM_THEME: OM_THEME {
+        om_theme: OM_THEME {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp LSHFT &kp LCTRL &kp SPACE>;
             label = "OM_THEME";
         };
-        OM_TGBAR: OM_TGBAR {
+        om_tgbar: OM_TGBAR {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp LEFT_GUI &kp LSHFT &kp SPACE>;
@@ -303,7 +303,7 @@
         layer_3 {
             bindings = <
 &om_ws1 &om_ws2 &om_ws3 &om_ws4 &om_ws5 &om_brw      &om_wsnx &om_term &om_menu &om_apps &om_lock &kp PRINTSCREEN &trans
-&scr_rec &trans  &trans  &trans  &trans  &trans       &om_wspr &om_file &om_full &om_tmux &om_clip &trans   &trans
+&scr_rec &trans  &trans  &trans  &trans  &trans       &om_wspv &om_file &om_full &om_tmux &om_clip &trans   &trans
 &om_ws6 &om_ws7 &om_ws8 &om_ws9 &om_ws0 &trans       &om_theme &om_emoj &om_nite &om_calc &trans  &trans   &trans
 &trans   &trans  &trans  &trans  &trans  &trans       &om_tgbar &trans  &trans  &trans  &trans  &trans   &trans
 &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
