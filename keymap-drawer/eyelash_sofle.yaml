@@ -202,52 +202,52 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - NEXT
-  - TERM
-  - MENU
-  - APPS
-  - LOCK
-  - EMOJ
-  - NITE
+  - '&om_wsnx'
+  - '&om_term'
+  - '&om_menu'
+  - '&om_apps'
+  - '&om_lock'
+  - '&om_emoj'
+  - '&om_nite'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PREV
-  - W1
-  - W2
-  - W3
-  - W4
-  - W5
-  - CALC
+  - '&om_wspv'
+  - '&om_ws1'
+  - '&om_ws2'
+  - '&om_ws3'
+  - '&om_ws4'
+  - '&om_ws5'
+  - '&om_calc'
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&om_theme'
+  - '&om_ws6'
+  - '&om_ws7'
+  - '&om_ws8'
+  - '&om_ws9'
+  - '&om_ws0'
+  - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - THEME
-  - W6
-  - W7
-  - W8
-  - W9
-  - W0
-  - PRT
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - BAR
-  - FILE
-  - BRW
-  - FULL
-  - TMUX
-  - REC
-  - CLIP
+  - '&om_tgbar'
+  - '&om_file'
+  - '&om_brw'
+  - '&om_full'
+  - '&om_tmux'
+  - '&scr_rec'
+  - '&om_clip'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
