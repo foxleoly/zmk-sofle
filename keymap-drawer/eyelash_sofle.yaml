@@ -207,7 +207,7 @@ layers:
   - '&om_menu'
   - '&om_apps'
   - '&om_lock'
-  - PRINT
+  - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - '&scr_rec'
   - {t: '$$mdi:transfer$$', type: trans}
