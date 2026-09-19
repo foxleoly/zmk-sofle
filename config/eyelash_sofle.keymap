@@ -52,6 +52,15 @@
             #sensor-binding-cells = <0>;
             tap-ms = <0>;
         };
+
+        om_lt3: om_lt3 {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <180>;
+            bindings = <&mo>, <&kp>;
+        };
     };
 
     combos {
@@ -90,6 +99,163 @@
 
             label = "SCR_REC";
         };
+
+        OM_WS1: OM_WS1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp N1>;
+            label = "OM_WS1";
+        };
+        OM_WS2: OM_WS2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp N2>;
+            label = "OM_WS2";
+        };
+        OM_WS3: OM_WS3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp N3>;
+            label = "OM_WS3";
+        };
+        OM_WS4: OM_WS4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp N4>;
+            label = "OM_WS4";
+        };
+        OM_WS5: OM_WS5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp N5>;
+            label = "OM_WS5";
+        };
+        OM_WS6: OM_WS6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp N6>;
+            label = "OM_WS6";
+        };
+        OM_WS7: OM_WS7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp N7>;
+            label = "OM_WS7";
+        };
+        OM_WS8: OM_WS8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp N8>;
+            label = "OM_WS8";
+        };
+        OM_WS9: OM_WS9 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp N9>;
+            label = "OM_WS9";
+        };
+        OM_WS0: OM_WS0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp N0>;
+            label = "OM_WS0";
+        };
+        OM_TERM: OM_TERM {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp RETURN>;
+            label = "OM_TERM";
+        };
+        OM_MENU: OM_MENU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp SPACE>;
+            label = "OM_MENU";
+        };
+        OM_APPS: OM_APPS {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp LEFT_ALT &kp SPACE>;
+            label = "OM_APPS";
+        };
+        OM_LOCK: OM_LOCK {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp LCTRL &kp L>;
+            label = "OM_LOCK";
+        };
+        OM_BRW: OM_BRW {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp LSHFT &kp RETURN>;
+            label = "OM_BRW";
+        };
+        OM_FILE: OM_FILE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp LSHFT &kp F>;
+            label = "OM_FILE";
+        };
+        OM_FULL: OM_FULL {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp F>;
+            label = "OM_FULL";
+        };
+        OM_TMUX: OM_TMUX {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp LEFT_ALT &kp RETURN>;
+            label = "OM_TMUX";
+        };
+        OM_CLIP: OM_CLIP {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp LCTRL &kp V>;
+            label = "OM_CLIP";
+        };
+        OM_EMOJ: OM_EMOJ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp LCTRL &kp E>;
+            label = "OM_EMOJ";
+        };
+        OM_NITE: OM_NITE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp LCTRL &kp N>;
+            label = "OM_NITE";
+        };
+        OM_CALC: OM_CALC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp LCTRL &kp Q>;
+            label = "OM_CALC";
+        };
+        OM_WSNX: OM_WSNX {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp TAB>;
+            label = "OM_WSNX";
+        };
+        OM_WSPV: OM_WSPV {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp LSHFT &kp TAB>;
+            label = "OM_WSPV";
+        };
+        OM_THEME: OM_THEME {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp LSHFT &kp LCTRL &kp SPACE>;
+            label = "OM_THEME";
+        };
+        OM_TGBAR: OM_TGBAR {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LEFT_GUI &kp LSHFT &kp SPACE>;
+            label = "OM_TGBAR";
+        };
     };
 
     keymap {
@@ -99,9 +265,9 @@
             bindings = <
 &kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp BACKSPACE
 &kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
-&kp CAPS    &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
+&om_lt3 3 CAPS    &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp LEFT_GUI    &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -114,7 +280,7 @@
 &trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &kp PRINT        &scr_rec         &trans      &trans     &trans
+&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -136,11 +302,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&om_ws1 &om_ws2 &om_ws3 &om_ws4 &om_ws5 &om_brw      &om_wsnx &om_term &om_menu &om_apps &om_lock &kp PRINT &trans
+&scr_rec &trans  &trans  &trans  &trans  &trans       &om_wspr &om_file &om_full &om_tmux &om_clip &trans   &trans
+&om_ws6 &om_ws7 &om_ws8 &om_ws9 &om_ws0 &trans       &om_theme &om_emoj &om_nite &om_calc &trans  &trans   &trans
+&trans   &trans  &trans  &trans  &trans  &trans       &om_tgbar &trans  &trans  &trans  &trans  &trans   &trans
+&trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
             >;
 
             display-name = "LAYER3";
