@@ -94,7 +94,7 @@
             bindings =
                 <&macro_press>,
                 <&kp LEFT_ALT>,
-                <&kp PRINT>,
+                <&kp PRINTSCREEN>,
                 <&macro_release>;
 
             label = "SCR_REC";
@@ -302,7 +302,7 @@
 
         layer_3 {
             bindings = <
-&om_ws1 &om_ws2 &om_ws3 &om_ws4 &om_ws5 &om_brw      &om_wsnx &om_term &om_menu &om_apps &om_lock &kp PRINT &trans
+&om_ws1 &om_ws2 &om_ws3 &om_ws4 &om_ws5 &om_brw      &om_wsnx &om_term &om_menu &om_apps &om_lock &kp PRINTSCREEN &trans
 &scr_rec &trans  &trans  &trans  &trans  &trans       &om_wspr &om_file &om_full &om_tmux &om_clip &trans   &trans
 &om_ws6 &om_ws7 &om_ws8 &om_ws9 &om_ws0 &trans       &om_theme &om_emoj &om_nite &om_calc &trans  &trans   &trans
 &trans   &trans  &trans  &trans  &trans  &trans       &om_tgbar &trans  &trans  &trans  &trans  &trans   &trans
