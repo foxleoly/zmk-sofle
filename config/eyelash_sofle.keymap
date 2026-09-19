@@ -302,10 +302,10 @@
 
         layer_3 {
             bindings = <
-&om_ws1 &om_ws2 &om_ws3 &om_ws4 &om_ws5 &om_brw      &om_wsnx &om_term &om_menu &om_apps &om_lock &kp PRINTSCREEN &trans
-&scr_rec &trans  &trans  &trans  &trans  &trans       &om_wspv &om_file &om_full &om_tmux &om_clip &trans   &trans
-&om_ws6 &om_ws7 &om_ws8 &om_ws9 &om_ws0 &trans       &om_theme &om_emoj &om_nite &om_calc &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &trans       &om_tgbar &trans  &trans  &trans  &trans  &trans   &trans
+&trans &trans &trans &trans &trans &trans    &om_wsnx &om_term &om_menu &om_apps &om_lock &om_emoj &om_nite
+&trans &trans &trans &trans &trans &trans    &om_wspv &om_ws1 &om_ws2 &om_ws3 &om_ws4 &om_ws5 &om_calc
+&trans &trans &trans &trans &trans &trans    &om_theme &om_ws6 &om_ws7 &om_ws8 &om_ws9 &om_ws0 &kp PRINTSCREEN
+&trans &trans &trans &trans &trans &trans    &om_tgbar &om_file &om_brw &om_full &om_tmux &scr_rec &om_clip
 &trans &trans &trans &trans &trans &trans    &trans &trans &trans &trans &trans &trans
             >;
 

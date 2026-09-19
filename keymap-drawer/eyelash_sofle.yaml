@@ -196,58 +196,58 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   LAYER3:
-  - '&om_ws1'
-  - '&om_ws2'
-  - '&om_ws3'
-  - '&om_ws4'
-  - '&om_ws5'
-  - '&om_brw'
-  - '&om_wsnx'
-  - '&om_term'
-  - '&om_menu'
-  - '&om_apps'
-  - '&om_lock'
-  - PRINTSCREEN
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&scr_rec'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&om_wspv'
-  - '&om_file'
-  - '&om_full'
-  - '&om_tmux'
-  - '&om_clip'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&om_ws6', type: held}
-  - '&om_ws7'
-  - '&om_ws8'
-  - '&om_ws9'
-  - '&om_ws0'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&om_theme'
-  - '&om_emoj'
-  - '&om_nite'
-  - '&om_calc'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - NEXT
+  - TERM
+  - MENU
+  - APPS
+  - LOCK
+  - EMOJ
+  - NITE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&om_tgbar'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - PREV
+  - W1
+  - W2
+  - W3
+  - W4
+  - W5
+  - CALC
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - THEME
+  - W6
+  - W7
+  - W8
+  - W9
+  - W0
+  - PRT
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - BAR
+  - FILE
+  - BRW
+  - FULL
+  - TMUX
+  - REC
+  - CLIP
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
