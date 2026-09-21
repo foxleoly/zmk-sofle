@@ -27,7 +27,7 @@ The labels below describe the behavior while the left inner thumb holds the Herd
 
 | Physical region | Assigned actions | Rationale |
 | --- | --- | --- |
-| Left top row, Q through T | Previous tab, next tab, workspace picker, copy mode, edit scrollback | Sequential navigation and read-oriented controls stay under the left hand. |
+| Left non-navigation keys, Q/E/R/F/G/T | Previous tab, next tab, workspace picker, copy mode, edit scrollback, toggle sidebar | Sequential navigation and read-oriented controls stay under the left hand without conflicting with the WASD movement cross. |
 | Left home area, W/A/S/D | Pane up, pane left, pane down, pane right | A physical WASD cross makes the most frequent four-way movement learnable without reaching the right half. |
 | Left lower inner key | Toggle sidebar | A lower-priority view action, separate from movement. |
 | Right top row, Y through P | New tab, split right, split down, zoom pane, detach client | Creation and view-sizing actions are grouped at the right index/middle fingers. |
