@@ -39,6 +39,15 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
 
+        fn1_herdr: fn1_herdr {
+            compatible = "zmk,behavior-hold-tap";
+            display-name = "Fn1 Hold / HerdR One-Shot";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&sl>;
+        };
+
     };
 
     rgb_encoder: rgb_encoder {
@@ -74,19 +83,19 @@
 &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp DOWN &kp Y &kp U &kp I &kp O &kp P &kp BSLH
 &mt LCTRL TAB &kp A &kp S &kp D &kp F &kp G &kp LEFT &kp H &kp J &kp K &kp L &kp SEMI &kp SQT
 &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp RIGHT &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHIFT
-&kp C_MUTE &kp CAPS &kp LALT &kp LGUI &lt 3 SPACE &mo 1  &kp ENTER  &mo 2 &lt 4 ENTER &kp LCTRL &kp LALT &kp DEL
+&kp C_MUTE &kp CAPS &kp LALT &kp LGUI &lt 3 SPACE &fn1_herdr 1 5  &kp ENTER  &mo 2 &lt 4 ENTER &kp LCTRL &kp LALT &kp DEL
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         lower_layer {
-            display-name = "HerdR";
+            display-name = "Fn1";
             bindings = <
-&trans &trans          &trans           &trans           &trans           &trans           &trans &trans              &trans              &trans              &trans              &trans              &trans
-&trans &kp LC(LA(P))   &kp LC(LA(U))    &kp LC(LA(N))    &kp LC(LA(W))    &kp LC(LA(B))    &trans &kp LC(LA(T))       &kp LC(LA(V))       &kp LC(LA(O))       &kp LC(LA(Z))       &kp LC(LA(D))       &trans
-&trans &kp LC(LA(H))   &kp LC(LA(J))    &kp LC(LA(L))    &kp LC(LA(C))    &kp LC(LA(E))    &trans &kp LC(LS(LA(N)))  &kp LC(LS(LA(G)))  &kp LC(LA(X))       &kp LC(LS(LA(X)))  &kp LC(LA(S))       &kp LC(LA(R))
-&trans &trans          &trans           &trans           &trans           &trans           &trans &trans              &trans              &trans              &trans              &trans              &trans
-&trans &trans          &trans           &trans           &trans           &trans           &trans &trans              &trans              &trans              &trans              &trans
+&trans      &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
+&trans      &trans           &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp PG_DN        &kp END     &kp HOME   &trans            &trans
+&trans      &trans           &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP     &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
+&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
             sensor-bindings = <&scroll_encoder>;
         };
@@ -124,6 +133,18 @@
 &trans  &kp C_MUTE        &kp LG(LS(N4))     &kp LG(LS(N3))   &kp LG(SPACE)    &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+            sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_5 {
+            display-name = "HerdR";
+            bindings = <
+&trans &trans          &trans           &trans           &trans           &trans           &trans &trans              &trans              &trans              &trans              &trans              &trans
+&trans &kp LC(LA(P))   &kp LC(LA(U))    &kp LC(LA(N))    &kp LC(LA(W))    &kp LC(LA(B))    &trans &kp LC(LA(T))       &kp LC(LA(V))       &kp LC(LA(O))       &kp LC(LA(Z))       &kp LC(LA(D))       &trans
+&trans &kp LC(LA(H))   &kp LC(LA(J))    &kp LC(LA(L))    &kp LC(LA(C))    &kp LC(LA(E))    &trans &kp LC(LS(LA(N)))  &kp LC(LS(LA(G)))  &kp LC(LA(X))       &kp LC(LS(LA(X)))  &kp LC(LA(S))       &kp LC(LA(R))
+&trans &trans          &trans           &trans           &trans           &trans           &trans &trans              &trans              &trans              &trans              &trans              &trans
+&trans &trans          &trans           &trans           &trans           &trans           &trans &trans              &trans              &trans              &trans              &trans
             >;
             sensor-bindings = <&scroll_encoder>;
         };

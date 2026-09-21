@@ -15,8 +15,13 @@ require_text() {
     fi
 }
 
+require_text "$keymap" 'display-name = "Fn1"'
 require_text "$keymap" 'display-name = "HerdR"'
-require_text "$keymap" '&mo 1'
+require_text "$keymap" 'compatible = "zmk,behavior-hold-tap"'
+require_text "$keymap" 'bindings = <&mo>, <&sl>;'
+require_text "$keymap" '&fn1_herdr 1 5'
+require_text "$keymap" '&kp F1'
+require_text "$keymap" '&mkp LCLK'
 require_text "$keymap" '&kp LC(LA(U))'
 require_text "$keymap" '&kp LC(LA(H))'
 require_text "$keymap" '&kp LC(LA(J))'

@@ -2,9 +2,9 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (- [ ]) syntax for tracking.
 
-**Goal:** Replace the Sofle Fn1 layer with an ergonomic, momentary HerdR command layer backed by direct HerdR shortcuts.
+**Goal:** Add an ergonomic, one-shot HerdR command layer while preserving the original Sofle Fn1 layer.
 
-**Architecture:** The left inner thumb continues to hold layer 1, but layer 1 becomes HerdR rather than Fn1. Each assigned key sends a single Ctrl+Alt chord defined in HerdR configuration, so no firmware sequence macro needs timing. Left-hand positions provide navigation and reading controls; right-hand positions provide workspace creation, pane layout, and close controls.
+**Architecture:** The left inner Fn1 thumb key becomes a custom hold-tap: hold activates original layer 1, and tap activates sticky layer 5 for the next keypress. Each HerdR action sends a single Ctrl+Alt chord defined in HerdR configuration, so no firmware sequence macro needs timing. Left-hand positions provide navigation and reading controls; right-hand positions provide workspace creation, pane layout, and close controls.
 
 **Tech Stack:** ZMK devicetree keymap, HerdR TOML configuration, GitHub Actions firmware build.
 
